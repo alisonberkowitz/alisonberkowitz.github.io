@@ -5,6 +5,7 @@
 #about{ 
   width: 800px;
   padding: 10px;
+  text-align:center;
   border: 1px solid black;
   background-color: #02A676;
   color: #003840 }
