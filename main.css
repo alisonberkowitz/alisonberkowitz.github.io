@@ -2,6 +2,12 @@
   Comment!
 */
 
+#about{ 
+  width: 800px;
+  border: 1px solid black;
+  background-color: #003840;
+  color: #02A676}
+
 table { border: 1px solid black; }
 table tr th { 
   background-color: #003840; 
