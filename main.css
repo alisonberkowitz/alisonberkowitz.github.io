@@ -2,8 +2,11 @@
   Comment!
 */
 
-table { border: 1px solid purple; }
+table { border: 1px solid black; }
 table tr th { 
-  background-color: blue; 
-  color: white;}
-table tr td { font-weight: bold; }
+  background-color: #003840; 
+  color: #02A676;
+  padding: 10px;}
+table tr td { 
+  font-weight: bold;
+  padding: 5px;}
