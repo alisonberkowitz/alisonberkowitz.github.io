@@ -1,16 +1,17 @@
 <html>
   <head>
-    <!--This is a comment. Comments are not displayed in the browser-->
-    <!--Doesn't Render-->
     <title>Alison Berkowitz</title>
-    <link type="text/css" rel="stylesheet" href="main.css"/>
-    
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
     <!-- Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- Bootstrap theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <!-- Bootstrap compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
   </head>
   <body>
@@ -28,7 +29,7 @@
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Employment</a></li>
                 <li><a href="#">Projects</a></li>
             </ul>
@@ -36,20 +37,26 @@
     </nav>
 
     <div class="jumbotron">
-      <div class="container row">
+      <div class="container">
         <div class="col-md-4">
-          <h1>Alison Berkowitz</h1>
-          <img src="images/linkedin.png" alt="me">
+          <img src="images/linkedin.png" class="img-responsive" alt="me">
         </div>
         
         <div class="col-md-8">
           <h2>About Me</h2>
-          <p id="aboutText">I'm in the Class of 2016 at Olin College majoring in Engineering with a concentration in Computing. Every afternoon in the fall, I can be found coaching high school field hockey, hoping to pass on my love for the sport. On weekends I can be found at hackathons and CS conferences looking to meet new people and learn all I can. Both a nerd and jock at heart, I aspire to work in the intersection of fitness and technology.</p>
+          <p id="aboutText">My name is Alison Berkowitz. I'm in the Class of 2016 at Olin College majoring in Engineering with a concentration in Computing. Every afternoon in the fall, I can be found coaching high school field hockey, hoping to pass on my love for the sport. On weekends I can be found at hackathons and CS conferences looking to meet new people and learn all I can. Both a nerd and jock at heart, I aspire to work in the intersection of fitness and technology.</p>
+<!--           <p>That is when I am not out of the country. I have lived on 3 continents and traveled to over 15 different countries in the year 2015 alone. I love experiencing new cultures, places, and people. Learning to communicate effectively across cultural barriers is one of the most important skills I have learned.</p>
+          <p>Passionate about closing the gender and diversity gap in tech</p> -->
+          <div id="contact">
+            <a href="mailto:alison.berkowitz@students.olin.edu"><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="https://www.github.com/alisonberkowitz"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/pub/alison-berkowitz/86/117/508"><i class="fa fa-linkedin fa-2x"></i></a>
+          </div>
         </div>
       </div>
     </div>
     
-    <section id="employment">
+<!--     <section id="employment">
       <h2>Employment</h2>
       <ul>
         <li>Cybex: Software Intern</li>
@@ -74,6 +81,6 @@
         <li>OurCS: Communication in Online Support Groups <a href="http://www.cs.cmu.edu/ourcs/Presentations/OnlineSupportGroups.pdf">slidedeck</a> </li>
       </ul>
     </section>
-
+ -->
   </body>
 </html>
