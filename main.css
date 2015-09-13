@@ -1,16 +1,41 @@
-#about{ 
+/*#about{ 
   width: 800px;
   padding: 10px;
   text-align:center;
   border: 1px solid black;
   background-color: #02A676;
   color: #003840;
+}*/
+
+section{
+  width: 100%;
+  min-height: 100%;
 }
 
-#contact .a{
+.jumbotron{
+  min-height: 100%;
+}
+
+.jumbotron .container{
+  display: flex;
+  align-items: center;
+}
+
+#contact a{
   padding: 10px;
-  background-color: #02A676;
-  color: #003840;
+/*  background-color: #02A676;
+  color: #003840;*/
+}
+
+.project{
+  text-align: center;
+  border-width: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project img{
+  max-height: 200px;
 }
 
 body{

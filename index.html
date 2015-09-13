@@ -2,7 +2,7 @@
   <head>
     <title>Alison Berkowitz</title>
 
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 
     <!-- Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -29,8 +29,8 @@
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#about">Home</a></li>
-                <li><a href="#">Employment</a></li>
+                <!-- <li><a href="#about">Home</a></li> -->
+                <!-- <li><a href="#">Employment</a></li> -->
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </div>
@@ -38,14 +38,15 @@
 
     <section id="about">
       <div class="jumbotron">
-        <div class="container" style="padding-top:50px">
+        <div class="container">
+          <div style="height:80%"></div>
           <div class="col-md-4">
             <img src="images/linkedin.png" class="img-responsive" alt="me">
           </div>
           
           <div class="col-md-8">
             <h2>About Me</h2>
-            <p id="aboutText">My name is Alison Berkowitz. I'm in the Class of 2016 at Olin College majoring in Engineering with a concentration in Computing. Every afternoon in the fall, I can be found coaching high school field hockey, hoping to pass on my love for the sport. On weekends I can be found at hackathons and CS conferences looking to meet new people and learn all I can. Both a nerd and jock at heart, I aspire to work in the intersection of fitness and technology.</p>
+            <p id="aboutText">I'm in the Class of 2016 at <a href="http://www.olin.edu/">Olin College</a> majoring in Engineering with a concentration in Computing. Every afternoon in the fall, I can be found coaching high school field hockey, hoping to pass on my love for the sport. On weekends I can be found at hackathons and CS conferences looking to meet new people and learn all I can. Both a nerd and jock at heart, I aspire to work in the intersection of fitness and technology.</p>
   <!--           <p>That is when I am not out of the country. I have lived on 3 continents and traveled to over 15 different countries in the year 2015 alone. I love experiencing new cultures, places, and people. Learning to communicate effectively across cultural barriers is one of the most important skills I have learned.</p>
             <p>Passionate about closing the gender and diversity gap in tech</p> -->
             <div id="contact">
@@ -59,10 +60,11 @@
     </section>
 
     <section id="projects">
-      <div>
-        <h1 class="text-center">Projects</h1>
+      <div style="padding-top:30px">
+        <!-- <h2 class="text-center" style="padding-bottom:30px">Projects</h2> -->
         <div class="col-md-4">
-          <div class="thumbnail" style="height:300px">
+          <div class="project">
+            <img src="images/Today_Routine.png" class="img-responsive center-block" alt="app screenshot">
             <h3>PTapp</h3>
             <p>For my course in Human Factors and Interface Design, I designed and prototyped an interface for a mobile application to help physical therapy patients keep track of their physical therapy regimen and communicate with their physical therapist</p>
             <ul>Technology Used:
@@ -74,23 +76,26 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail" style="height:300px">
+          <div class="project">
+            <img src="images/XpressMe.png" class="img-responsive center-block" alt="app screenshot">
             <h3>XpressMe</h3>
             <p>As an intern for the Lifelong Kindergarten Group at the MIT Media Lab, I prototyped a mobile application to help adult learners capitalize on free time during their daily commute to complete a certification program (e.g. a phlebotomy certificate).</p>
             <ul>Technology Used:
-              <li>AngularJS for frontend</li>
-              <li>Kinvey database for backend</li>
-              <li>Ionic Framework to convert the JavaScript application into a native ios application</li>
+              <li>AngularJS</li>
+              <li>Kinvey</li>
+              <li>Ionic</li>
             </ul>
             <a class="btn btn-primary btn-md" href="https://github.com/JNazare/XpressMe/wiki" role="button">Project Home Page</a>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail" style="height:300px">
+          <div class="project">
+            <img src="images/P2Feed.png" class="img-responsive center-block" alt="app screenshot">
             <h3>P2Feed</h3>
-            <p>As a sophomore, I assisted senior students working on their capstone project at Olin College in demonstrating ways to improve the Facebook Android application experience for people in emerging markets</p>
+            <p>As a sophomore, I assisted senior students working on their capstone project in demonstrating ways to improve the Facebook Android application experience for people in emerging markets by developing a mock-up of the app that could be used without an internet connection</p>
             <ul>Technology Used:
               <li>Android Studio</li>
+              <li>Wi-Fi P2P</li>
             </ul>
             <a class="btn btn-primary btn-md" href="http://cypressf.github.io/scope-website" role="button">Project Home Page</a>
           </div>
