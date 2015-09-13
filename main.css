@@ -38,6 +38,10 @@ section{
   max-height: 200px;
 }
 
+.project ul{
+  list-style-position: inside;
+}
+
 body{
   background-color: blue;
 }
