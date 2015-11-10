@@ -1,4 +1,4 @@
 alisonberkowitz.github.io
 =========================
 
-Learning Basic WebDev at Pearl Hacks!
+A work in progress personal website to document cool projects and stuff about me
