@@ -1,163 +1,39 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Website">
-    <meta name="author" content="Alison Berkowitz">
-    <title>Alison Berkowitz</title>
+<head>
+	<title>Alison Berkowitz</title>
 
-    <link rel="stylesheet" type="text/css" href="main.css">
-
-    <!-- Bootstrap compiled and minified CSS -->
+	<!-- Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- Bootstrap theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
+	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    
-  </head>
-  <body>
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">Alison Berkowitz</a>
-        </div>
-        <!-- Collection of nav links and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <!-- <li><a href="#about">Home</a></li> -->
-                <!-- <li><a href="#">Employment</a></li> -->
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="images/resume.pdf">Resume</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <section id="about">
-      <div class="jumbotron">
-        <div class="container">
-          <div class="col-md-4">
-            <img src="images/linkedin.png" class="img-responsive center-block" alt="me">
-          </div>
-          
-          <div class="col-md-8">
-            <h2>About Me</h2>
-            <p id="aboutText">I'm in the Class of 2016 at <a href="http://www.olin.edu/">Olin College</a> majoring in Engineering with a concentration in Computing. Every afternoon in the fall, I can be found coaching high school field hockey, hoping to pass on my love for the sport. On weekends I can be found at hackathons and CS conferences looking to meet new people and learn all I can. Both a nerd and jock at heart, I aspire to work in the intersection of fitness and technology.</p>
-  <!--           <p>That is when I am not out of the country. I have lived on 3 continents and traveled to over 15 different countries in the year 2015 alone. I love experiencing new cultures, places, and people. Learning to communicate effectively across cultural barriers is one of the most important skills I have learned.</p>
-            <p>Passionate about closing the gender and diversity gap in tech</p> -->
-            <div id="contact">
-              <a href="mailto:alison.berkowitz@students.olin.edu" title="email"><i class="fa fa-envelope fa-2x"></i></a>
-              <a href="https://www.github.com/alisonberkowitz" title="github"><i class="fa fa-github fa-2x"></i></a>
-              <a href="https://www.linkedin.com/pub/alison-berkowitz/86/117/508" title="linkedin"><i class="fa fa-linkedin fa-2x"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div style="padding-top:30px">
-        <!-- <h2 class="text-center" style="padding-bottom:30px">Projects</h2> -->
-        <div class="container">
-          <div class="col-md-4">
-            <div class="project">
-              <img src="images/Today_Routine.png" class="img-responsive center-block" alt="app screenshot">
-              <h3>PTapp</h3>
-              <p>For my course in Human Factors and Interface Design, I designed and prototyped an interface for a mobile application to help physical therapy patients keep track of their physical therapy regimen and communicate with their physical therapist</p>
-              <ul>Technology Used:
-                <li>Balsamiq</li>
-                <li>AngularJS</li>
-                <li>Bootstrap</li>
-              </ul>
-              <a class="btn btn-primary btn-md" href="http://hfid.olin.edu/sa2015/candlestick/#/assignments/final_writeup" role="button">Project Home Page</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <img src="images/XpressMe.png" class="img-responsive center-block" alt="app screenshot">
-              <h3>XpressMe</h3>
-              <p>As an intern for the Lifelong Kindergarten Group at the MIT Media Lab, I prototyped a mobile application to help adult learners capitalize on free time during their daily commute to complete a certification program (e.g. a phlebotomy certificate).</p>
-              <ul>Technology Used:
-                <li>AngularJS</li>
-                <li>Kinvey</li>
-                <li>Ionic</li>
-              </ul>
-              <a class="btn btn-primary btn-md" href="https://github.com/JNazare/XpressMe/wiki" role="button">Project Home Page</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <img src="images/P2Feed.png" class="img-responsive center-block" alt="app screenshot">
-              <h3>P2Feed</h3>
-              <p>As a sophomore, I assisted senior students working on their capstone project in demonstrating ways to improve the Facebook Android application experience for people in emerging markets by developing a mock-up of the app that could be used without an internet connection</p>
-              <ul>Technology Used:
-                <li>Android Studio</li>
-                <li>Facebook SDK</li>
-                <li>Wi-Fi P2P</li>
-              </ul>
-              <a class="btn btn-primary btn-md" href="http://cypressf.github.io/scope-website" role="button">Project Home Page</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <img src="images/pyrois.jpg" class="img-responsive center-block" alt="app screenshot">
-              <h3>Pyrois</h3>
-              <p>In my Principles of Engineering course, I worked on a team of 4 to make a portable bike stand generator to charge a cell phone.</p>
-              <a class="btn btn-primary btn-md" href="http://pyrois.weebly.com/" role="button">Project Home Page</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <img src="images/ourCS.JPG" class="img-responsive center-block" alt="app screenshot">
-              <h3>NLP @ OurCS</h3>
-              <p>At Carnegie Mellon University's OurCS Conference, we used natural language processing and machine learning techniques to analyze content on breastcancer.org to predict a user's long term behavior based off of their first month</p>
-              <a class="btn btn-primary btn-md" href="http://www.cs.cmu.edu/ourcs/Presentations/OnlineSupportGroups.pdf" role="button">Project Slide Deck</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-<!--     <section id="employment">
-      <h2>Employment</h2>
-      <ul>
-        <li>Insper Junior Partner</li>
-        <li>Microsoft: Software Engineer Intern</li>
-        <li>MIT Media Lab: LLK Intern</li>
-        <li>Cybex: Software Intern</li>
-        <li>SCOPE: Android Developer <a href="http://cypressf.github.io/scope-website/index.html">site</a> </li>
-        <li>Coaching?</li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>School Projects</h2>
-      <ul>
-        <li>HFID: PTapp</li>
-        <li>User Oriented Collaborative Design: Boxers</li>
-        <li>Software Systems: Boxer Database</li>
-        <li>Data Science: MapMyFitness</li>
-        <li>MobileProto: Extra Hours</li>
-        <li>POE <a href="http://pyrois.weebly.com/">Pyrois</a> </li>
-      </ul>
-      <h2>Weekend Projects</h3>
-      <ul>
-        <li>SWE Google</li>
-        <li>HackHolyoke: I forget</li>
-        <li>Hackfit: BuddyBeats <a href="http://sweatinsync.com/">site</a> </li>
-        <li>PearlHacks: This Website</li>
-        <li>YHack: Soup for Tim</li>
-        <li>OurCS: Communication in Online Support Groups <a href="http://www.cs.cmu.edu/ourcs/Presentations/OnlineSupportGroups.pdf">slidedeck</a> </li>
-      </ul>
-    </section>
- -->
-  </body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">
+			<img src="images/circleme.png">
+			<div id="name">Alison Berkowitz</div>
+		</a>
+		<ul>
+			<li><a href="/projects.html">Projects</a></li>
+			<li id="features"><a href="">Featured In</a>
+				<div class="dropdown-content">
+					<a href="https://medium.com/@ReigningIt/women-who-reign-alison-berkowitz-a407b1d0966e#.y0gc3oxp7">Women Who Reign</a>
+					<a href="http://ghc.anitaborg.org/2016-student-academic/scholarships/2016-ghc-scholars/attachment/alison-berkowitz/">2016 GHC Scholar</a>
+					<a href="http://franklyspeakingnews.com/2013/09/meet-the-oliner-alison-berkowitz/">Meet the Oliner</a>
+				</div>
+			</li>
+			<li><a href="images/resume.pdf">Resume</a></li>
+		</ul>
+	</div>
+	<div id="contact">
+      	<a href="mailto:berkowitzas@gmail.com" title="email"><i class="fa fa-envelope fa-3x"></i></a>
+      	<a href="https://www.github.com/alisonberkowitz" title="github"><i class="fa fa-github fa-3x"></i></a>
+      	<a href="https://www.linkedin.com/pub/alison-berkowitz/86/117/508" title="linkedin"><i class="fa fa-linkedin fa-3x"></i></a>
+      	<a href="https://twitter.com/berko94" title="twitter"><i class="fa fa-twitter fa-3x"></i></a>
+      	<a href="https://www.instagram.com/alisonberkowitz/"><i class="fa fa-instagram fa-3x"></i></a>
+    </div>
+</body>
 </html>

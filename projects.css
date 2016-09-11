@@ -1,0 +1,62 @@
+html {
+	background: none;
+}
+
+.row {
+	text-align: center;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.tile {
+	width: 95%;
+	height: 30vw;
+	background-color: lightslategray;
+	color: white;
+	padding: 1em;
+	margin-top: 1em;
+	text-align: center;
+	border-radius: 1em;
+	display: inline-block;
+}
+
+.tile img {
+	max-height: 20vw;
+	max-width: 90%;
+	padding-top:0.5em; 
+}
+
+.tile .front {
+	background-color: white;
+	border-radius: 1em;
+	color: slategray;
+	height: 100%;
+}
+
+.tile .front-wrapper {
+	vertical-align: middle;
+}
+
+.tile .content {
+	display: none;
+	color: white;
+	padding: 1em;
+}
+
+.tile .content h3 {
+	font-weight: bold;
+}
+
+.tile:hover .content {
+	display: inline-block;
+}
+
+.tile:hover .front {
+	display: none;
+}
+
+.tile a {
+	color: lightblue;
+	padding: 1em;
+}
