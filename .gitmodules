@@ -1,0 +1,3 @@
+[submodule "photoMap"]
+	path = photoMap
+	url = https://github.com/alisonberkowitz/photoMap
