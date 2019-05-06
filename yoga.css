@@ -1,5 +1,19 @@
+html { 
+  background: url(images/urdva.jpg) no-repeat fixed; 
+  background-blend-mode: lighten;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background: none;
+}
+
 .container {
 	margin-top: 2em;
+	background: rgba(255, 255, 255, 0.9);
 }
 
 h1 {
