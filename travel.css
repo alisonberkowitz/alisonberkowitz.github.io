@@ -1,0 +1,14 @@
+#photoMap {
+	width: 100%; 
+	height:90%; 
+	position: fixed
+}
+
+#label {
+	background-color: midnightblue;
+	color: white;
+	position: fixed;
+	bottom: 4em;
+	right: 20em;
+	padding: 1em;
+}
