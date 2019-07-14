@@ -1,0 +1,11 @@
+.container {
+	margin-top: 2em;
+}
+
+.container img {
+  max-width:100%;
+  max-height: 70vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
